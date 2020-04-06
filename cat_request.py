@@ -8,3 +8,4 @@ def get_random_cat_url ():
     data = response.json()
     url = data[0]['url']
     return url
+
